@@ -1,0 +1,44 @@
+body {
+    background-image: url("/assets/img/black-white-checks.jpg");
+    background-position: center;
+    font-family: "Shrikhand";
+ }
+ .header {
+     border: 10px solid #b71c1c;
+     border-radius: 50%;
+     width: 30vw;
+     height: 30vw;
+     background: white;
+     margin: auto;
+
+ }
+ .container {
+     background: white;
+     border: 20px double black;
+     border-radius: 10px;
+ }
+  
+.col-title {
+    color:#b71c1c;
+    font-weight: bold;
+}
+
+.order {
+    border: 5px solid #b71c1c;
+    border-radius: 10px;
+}
+
+button {
+    margin: 5px;
+    font-family: "Shrikhand";
+}
+
+/* label focus color */
+.input-field input:focus + label {
+    color: #b71c1c !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #b71c1c !important
+}
